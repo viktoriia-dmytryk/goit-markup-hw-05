@@ -60,8 +60,7 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.head-adr-email:hover, .head-adr-num:hover, .head-adr-email:focus,
-.head-adr-num:focus{
+.head-adr:hover, .head-adr:focus{
     color: #404bbf;
 }
 
