@@ -86,9 +86,12 @@ ul {
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    background: #4d5ae5;;
     
 
+}
+.btn-order:focus, .btn-order:active, .btn-order:hover {
+    background: #404bbf;
 }
 
 
@@ -103,7 +106,6 @@ ul {
     color: #2e2f42;
 }
 .sect-advant p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -117,7 +119,6 @@ ul {
 }
 
 .team-ul h3 {
-    font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -125,7 +126,6 @@ ul {
 }
 
 .team-ul p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -146,7 +146,6 @@ ul {
 }
 
 .port-page p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -159,7 +158,6 @@ ul {
 }
 
 .foot-page p {
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
