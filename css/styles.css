@@ -4,7 +4,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -13,6 +14,9 @@ a {
 
 ul {
     list-style-type: none;
+}
+address {
+    font-style: normal;
 }
 
 
@@ -25,14 +29,14 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
+    line-height: 1.17;
 }
 
 .logo-web {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 .logo-web-foot {
     color: #f4f4fd;
@@ -46,33 +50,34 @@ ul {
     color: #2e2f42;
 }
 
-.head-menu a:hover, .head-menu a:focus {
-    color: #4d5ae5;
-} 
+.navigate-btn:hover, .navigate-btn:focus, .navigate-btn:active {
+    color: #404bbf;
+}
 
 .head-adress a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 250ms ease;
-    font-style: normal;
+}
+.head-adr-email:hover, .head-adr-num:hover, .head-adr-email:focus,
+.head-adr-num:focus{
+    color: #404bbf;
 }
 
-.head-adress a:hover, .head-adress a:focus {
-    color: #4d5ae5;
-}
 
 .first-page {
+    background-color: #2e2f42;
 
 }
 
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
 
 }
 
@@ -82,9 +87,6 @@ ul {
     line-height: 24px;
     letter-spacing: 0.04em;
     color: #fff;
-    border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
 }
@@ -96,14 +98,15 @@ ul {
 .sect-advant {
     background-color: #FFFFFF;
 }
-.sect-advant h3 {
+
+.adv-title-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.sect-advant p {
+.adv-title-text {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -115,20 +118,20 @@ ul {
 .team-page {
     background-color: #f4f4fd;
 }
-
-.team-ul h3 {
-    font-size: 20px;
-    line-height: 24px;
+.team-page-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
+.teammate {
+    background-color: #FFFFFF;
 
-.team-ul p {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
+
+
 
 .port-page {
     background: #fff;
@@ -155,9 +158,9 @@ ul {
     background-color: #2e2f42;
 }
 
-.foot-page p {
+.foot-text {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
