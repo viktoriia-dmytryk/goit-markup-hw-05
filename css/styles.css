@@ -92,7 +92,9 @@ ul {
 .btn-order:focus, .btn-order:active, .btn-order:hover {
     background: #404bbf;
 }
-
+.btn-order:hover{
+    cursor: pointer;
+}
 
 .sect-advant {
     background-color: #FFFFFF;
