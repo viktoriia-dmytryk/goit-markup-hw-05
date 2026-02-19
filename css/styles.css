@@ -47,13 +47,7 @@ address {
     font-style: normal;
 }
 
-.list-4 li {
-    width: calc((100% - 72px) / 4);
-}
 
-.list-6 li {
-    width: calc((100% - 48px) / 3);
-}
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -70,13 +64,12 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .logo-web {
     color: #2e2f42;
-    margin-right: 76px;
 }
-
 .logo-web-foot {
     color: #f4f4fd;
 }
@@ -86,6 +79,8 @@ address {
 ========================= */
 .head-main {
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: auto;
     
 }
 .head-main .container {
@@ -105,12 +100,14 @@ address {
     align-items: center;
     gap: 40px;
     flex-wrap: wrap;
+    padding: 24px 0 24px;
 }
 
 
 .head-menu {
     display: flex;
     gap: 40px;
+    list-style: none;
 }
 
 .navigate-btn {
@@ -128,6 +125,7 @@ address {
     gap: 40px;
     flex-wrap: wrap;
     align-items: center;
+    padding: 24px 0 24px;
 }
 
 .head-adr {
@@ -305,14 +303,14 @@ address {
 .port-page-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
     justify-content: center;
     max-width: 1128px;
     margin: auto;
 }
 
 .port-page-item {
-    border-bottom: 1px solid #e7e9fc;
     width: 360px;
     background: #fff;
     padding-bottom: 32px;
@@ -323,11 +321,17 @@ address {
     object-fit: cover;
     height: auto;
 }
+
+.portfolio-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .port-page-name {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
-    margin: 32px 0 8px 16px;
+    margin-bottom: 8px;
 }
 
 .port-page-text {
@@ -341,9 +345,12 @@ address {
 
 .foot-page {
     background-color: #2e2f42;
-    padding: 100px 15px;
+    padding: 100px 0;
 }
-
+.foot-page .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .foot-page .container {
     max-width: 1158px;
     margin: 0 auto;
@@ -355,5 +362,4 @@ address {
     line-height: 1.5;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
 }
