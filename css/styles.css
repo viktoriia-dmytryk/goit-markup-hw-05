@@ -95,6 +95,11 @@ address {
     padding: 0 15px 0 15px;
 }
 
+.head-nav {
+    display: flex;
+    align-items: center;
+}
+
 .head-left {
     display: flex;
     align-items: center;
@@ -112,6 +117,7 @@ address {
 
 .navigate-btn {
     font-weight: 500;
+    padding: 24px 0;
     color: #2e2f42;
 }
 
@@ -127,8 +133,12 @@ address {
     align-items: center;
     padding: 24px 0 24px;
 }
-
+.head-adress-list {
+    display: flex;
+    gap: 40px;
+}
 .head-adr {
+    padding: 24px 0;
     color: #434455;
 }
 
