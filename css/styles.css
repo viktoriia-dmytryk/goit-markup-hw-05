@@ -318,7 +318,19 @@ address {
     color: #434455;
     text-align: center;
 }
+.team-icon-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
 
+.icon-link {
+    width: 40px;
+    height: 40px;
+}
+.icon-link:hover {
+    fill: #2E2F42;
+}
 /* =========================
    PORTFOLIO
 ========================= */
@@ -414,4 +426,5 @@ address {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
+    flex-direction: column;
 }
