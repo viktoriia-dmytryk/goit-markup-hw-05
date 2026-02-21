@@ -322,6 +322,8 @@ address {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    width: 232px;
+    height: 40px;
 }
 
 .icon-link {
