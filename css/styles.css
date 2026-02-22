@@ -373,6 +373,7 @@ address {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
                 0 1px 1px 0 rgba(46, 47, 66, 0.16),
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    cursor: pointer;
 }
 .port-page-image {
     width: 100%;
@@ -435,7 +436,7 @@ address {
 }
 
 .footer-icon-container {
-    margin-bottom: 16px;
+    margin-top: 16px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
