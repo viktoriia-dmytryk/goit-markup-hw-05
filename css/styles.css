@@ -325,6 +325,7 @@ address {
     gap: 24px;
     width: 232px;
     height: 40px;
+    margin: 0 auto;
     
 }
 
@@ -433,7 +434,7 @@ address {
     flex-direction: column;
 }
 
-.team-icon-container {
+.footer-icon-container {
     margin-bottom: 16px;
     display: flex;
     justify-content: space-between;
