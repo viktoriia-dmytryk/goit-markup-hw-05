@@ -321,12 +321,10 @@ address {
 }
 .team-icon-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     width: 232px;
     height: 40px;
-    align-items: center;
-    margin: 0 auto;
     
 }
 
