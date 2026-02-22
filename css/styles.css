@@ -333,7 +333,7 @@ address {
     width: 40px;
     height: 40px;
 }
-.social-media-link:hover {
+.social-media-link:hover .icon-link {
     fill: #2E2F42;
 }
 /* =========================
