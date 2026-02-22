@@ -334,7 +334,7 @@ address {
     height: 40px;
 }
 .social-media-link:hover .icon-link {
-    --color1: #2e2f42;
+    filter: brightness(0.85);
 }
 /* =========================
    PORTFOLIO
