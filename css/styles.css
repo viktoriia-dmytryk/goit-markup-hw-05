@@ -317,6 +317,7 @@ address {
 .team-title-text {
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
 }
 .team-icon-container {
     display: flex;
@@ -324,6 +325,9 @@ address {
     gap: 24px;
     width: 232px;
     height: 40px;
+    align-items: center;
+    margin: 0 auto;
+    
 }
 
 .icon-link {
@@ -429,4 +433,13 @@ address {
     letter-spacing: 0.02em;
     color: #fff;
     flex-direction: column;
+}
+
+.team-icon-container {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 232px;
+    height: 40px;
 }
