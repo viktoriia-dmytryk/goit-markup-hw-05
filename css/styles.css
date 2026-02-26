@@ -536,10 +536,8 @@ address {
     color: #fff;
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 .foot-container-link .team-icon-container {
-    gap: 16px;
     margin-top: 0;
 }
 .foot-container-link .icon-link:hover, .foot-container-link .icon-link:focus {
