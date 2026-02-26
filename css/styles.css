@@ -380,13 +380,11 @@ address {
 }
 
 .icon-link {
-    width: 16px;
-    height: 16px;
     fill: #F4F4FD;
 }
 
-.social-media-link:hover {
-    background: #31d0aa;
+.social-media-link:hover, .social-media-link:focus {
+    background-color: #404bbf;
 }
 /* =========================
    PORTFOLIO
@@ -522,8 +520,4 @@ address {
 .foot-container-link .team-icon-container {
     gap: 16px;
     margin-top: 0;
-}
-
-.foot-container-link .team-icon-container .icon-link {
-    transform: scale(1.5);
 }
