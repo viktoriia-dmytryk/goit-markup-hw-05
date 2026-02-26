@@ -90,6 +90,9 @@ address {
   top: 0;
   background-color: #fff; 
   z-index: 999;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 .head-main .container {
     flex-shrink: 0;
@@ -132,7 +135,10 @@ address {
     transition-duration: 150ms;
     transition-timing-function: ease-in-out;
 }
-
+.navigate-btn:first-child{
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .navigate-btn:hover,
 .navigate-btn:focus {
     color: #404bbf;
@@ -154,9 +160,8 @@ address {
 .head-adr {
     padding: 24px 0;
     color: #434455;
-    transition-property: color;
-    transition-duration: 150ms;
-    transition-timing-function: ease-in-out;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .head-adr:hover,
@@ -169,7 +174,7 @@ address {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: -1px;
     width: 100%;
     height: 4px;
     background-color: #404bbf;
