@@ -426,7 +426,7 @@ address {
 
 .port-page-item {
     background: #fff;
-    flex-basis: 360px;
+    width: calc((100% - 48px) / 3);
 
 }
 
