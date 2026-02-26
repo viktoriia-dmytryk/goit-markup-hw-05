@@ -512,11 +512,16 @@ address {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-right: 120px
 }
 .foot-text {
     line-height: 1.5;
     color: #f4f4fd;
     max-width: 264px;
+    
+}
+.foot-text-social {
+    margin-bottom: 16px;
 }
 
 .foot-page-container {
@@ -536,4 +541,8 @@ address {
 .foot-container-link .team-icon-container {
     gap: 16px;
     margin-top: 0;
+}
+.foot-container-link .icon-link:hover, .foot-container-link .icon-link:focus {
+    background-color: #31d0aa;
+
 }
