@@ -507,57 +507,64 @@
             Leave your contacts and we will call you back
         </h2>
         <form class="form-overlay" action="#" autocomplete="off">
-          <label class="modal-label" for="name">
-            Name</label>
-            <div class="input-wrapper">
-              <svg class="input-icon">
-                <use href="./images/icons.svg#icon-name"></use>
-              </svg>
-              <input
-                class="modal-input"
-                type="text"
-                id="name"
-                name="user-name"
-                maxlength="50"
-                autocomplete="name"
-                required
-              />
-            </div>
-          
-
-          <label class="modal-label">
-            Phone
-            <div class="input-wrapper">
-              <svg class="input-icon">
-                <use href="./images/icons.svg#icon-telefon"></use>
-              </svg>
-              <input
-                class="modal-input"
-                type="tel"
-                name="user-phone"
-                autocomplete="tel"
-                maxlength="15"
-                required
-              />
-            </div>
-          </label>
-
-          <label class="modal-label">
-            Email
-            <div class="input-wrapper">
-              <svg class="input-icon">
-                <use href="./images/icons.svg#icon-mail"></use>
-              </svg>
-              <input
-                class="modal-input"
-                type="email"
-                name="user-email"
-                autocomplete="email"
-                maxlength="254"
-                required
-              />
-            </div>
-          </label>
+          <div class="input-box">
+            <label class="modal-label" for="name">
+              Name</label>
+              <div class="input-wrapper">
+                <svg class="input-icon">
+                  <use href="./images/icons.svg#icon-name"></use>
+                </svg>
+                <input
+                  class="modal-input"
+                  type="text"
+                  id="name"
+                  name="user-name"
+                  maxlength="50"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+            
+  
+          </div>
+          <div class="input-box">
+            <label class="modal-label" for="phone">
+              Phone</label>
+              <div class="input-wrapper">
+                <svg class="input-icon">
+                  <use href="./images/icons.svg#icon-telefon"></use>
+                </svg>
+                <input
+                  class="modal-input"
+                  id="phone"
+                  type="tel"
+                  name="user-phone"
+                  autocomplete="tel"
+                  maxlength="15"
+                  required
+                />
+              </div>
+  
+          </div>
+          <div class="input-box">
+            <label class="modal-label" for="email-form">
+              Email</label>
+              <div class="input-wrapper">
+                <svg class="input-icon">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                <input
+                  class="modal-input"
+                  type="email"
+                  id="email-form"
+                  name="user-email"
+                  autocomplete="email"
+                  maxlength="254"
+                  required
+                />
+              </div>
+            
+          </div>
           <label class="modal-area"
             >Comment<textarea
               class="input-comment"
