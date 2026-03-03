@@ -482,7 +482,7 @@
         </div>
         <div class="form-subs-box">
           <p class="form-text">Subscribe</p>
-          <form action="#" class="subscribe-form">
+          <form class="subscribe-form">
             
             <label class="label-telegram" for="telegram-id">
               <input class="subs-telegram-input" id="telegram-id" type="email" name="user-subscribe" maxlength="254" placeholder="E-mail" required>
@@ -503,12 +503,12 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="title-overlay">
+        <p class="title-overlay">
             Leave your contacts and we will call you back
-        </h2>
-        <form class="form-overlay" action="#" autocomplete="off">
+        </>
+        <form class="form-overlay" autocomplete="off">
           <div class="input-box">
-            <label class="modal-label" for="name">
+            <label class="modal-label" for="user-name">
               Name</label>
               <div class="input-wrapper">
                 <svg class="input-icon">
@@ -517,7 +517,7 @@
                 <input
                   class="modal-input"
                   type="text"
-                  id="name"
+                  id="user-name"
                   name="user-name"
                   maxlength="50"
                   autocomplete="name"
@@ -581,10 +581,11 @@
               type="checkbox"
               name="checkbox-police"
               required
-            /><span class="custom-checkbox">
-              <svg class="check-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-check"></use>
-              </span
+            /><div class="custom-checkbox">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </div
             >I accept the terms and conditions of the &nbsp;
             <a class="link-police" href="#"> Privacy Policy</a></label
           >
