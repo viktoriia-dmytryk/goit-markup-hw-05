@@ -507,8 +507,8 @@
             Leave your contacts and we will call you back
         </h2>
         <form class="form-overlay" action="#" autocomplete="off">
-          <label class="modal-label">
-            Name
+          <label class="modal-label" for="name">
+            Name</label>
             <div class="input-wrapper">
               <svg class="input-icon">
                 <use href="./images/icons.svg#icon-name"></use>
@@ -516,13 +516,14 @@
               <input
                 class="modal-input"
                 type="text"
+                id="name"
                 name="user-name"
                 maxlength="50"
                 autocomplete="name"
                 required
               />
             </div>
-          </label>
+          
 
           <label class="modal-label">
             Phone
